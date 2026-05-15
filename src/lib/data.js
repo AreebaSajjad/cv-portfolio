@@ -62,10 +62,10 @@ export const personalInfo = {
   name: 'Areeba Sajjad',
   title: 'Computer Science Student',
   subtitle: '6th Semester | BSCS | Aspiring Full-Stack Developer',
-  email: 'areeba.sajjad@email.com',
+  email: 'areebasajjad.cs@gmail.com',
   phone: '+92 300 0000000',
   location: 'Pakistan',
-  github: 'https://github.com/areeba-sajjad',
+  github: 'https://github.com/AreebaSajjad',
   linkedin: 'https://linkedin.com/in/areeba-sajjad',
   about: `Hi! I'm Areeba Sajjad, a passionate Computer Science student in my 6th semester with a deep love for web development and problem solving. I enjoy building clean, user-friendly applications and am always eager to learn new technologies. Currently exploring the MERN stack and modern frameworks like React and Next.js. I believe in writing clean code and creating meaningful digital experiences.`,
   education: [
@@ -74,7 +74,7 @@ export const personalInfo = {
       institute: 'Comsats University Islamabad , vehari campus',
       year: '2026 – Present',
       semester: '6th Semester',
-      gpa: '3.8 / 4.0',
+      gpa: '3.75 / 4.0',
     },
     {
       degree: 'FSc Pre-Engineering',
