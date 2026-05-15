@@ -1,0 +1,17 @@
+// 🔧 SUPABASE CONFIGURATION
+
+export const SUPABASE_URL = 'https://khfvuodavivuqylcttfz.supabase.co';
+export const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtoZnZ1b2Rhdml2dXF5bGN0dGZ6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzI5ODk4MzYsImV4cCI6MjA4ODU2NTgzNn0.Zn1-83LxTo1e6PMc25mhhRetYkqwn8AkxrmtebwMzZ8';
+
+let supabaseClient = null;
+
+export const getSupabase = () => {
+  if (!supabaseClient && SUPABASE_URL !== 'https://khfvuodavivuqylcttfz.supabase.co') {
+    const { createClient } = require('@supabase/supabase-js');
+    supabaseClient = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+  }
+  return supabaseClient;
+};
+
+export const isSupabaseConfigured = () =>
+  SUPABASE_URL !== 'https://khfvuodavivuqylcttfz.supabase.co';

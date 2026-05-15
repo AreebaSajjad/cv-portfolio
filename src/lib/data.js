@@ -1,0 +1,86 @@
+export const mockProjects = [
+  {
+    id: '1',
+    title: 'E-Commerce Platform',
+    description: 'Full-stack shopping app with cart, authentication, and payment integration using React and Node.js.',
+    tech_stack: ['React', 'Node.js', 'MongoDB', 'CSS'],
+    github_url: 'https://github.com',
+    live_url: '#',
+    featured: true,
+  },
+  {
+    id: '2',
+    title: 'Student Portal System',
+    description: 'University management portal with course enrollment, grades tracking and schedule management.',
+    tech_stack: ['React', 'Supabase', 'Tailwind', 'PostgreSQL'],
+    github_url: 'https://github.com',
+    live_url: '#',
+    featured: true,
+  },
+  {
+    id: '3',
+    title: 'Weather Dashboard',
+    description: 'Real-time weather app using OpenWeather API with location search and 7-day forecast.',
+    tech_stack: ['React', 'REST API', 'CSS3', 'JavaScript'],
+    github_url: 'https://github.com',
+    live_url: '#',
+    featured: false,
+  },
+  {
+    id: '4',
+    title: 'Blog Platform',
+    description: 'Full-stack blog with authentication, rich text editor, and commenting system.',
+    tech_stack: ['Next.js', 'Supabase', 'PostgreSQL', 'Tailwind'],
+    github_url: 'https://github.com',
+    live_url: '#',
+    featured: true,
+  },
+  {
+    id: '5',
+    title: 'Library Management System',
+    description: 'Desktop app for managing library books, members, and issuing records using Python.',
+    tech_stack: ['Python', 'Tkinter', 'SQLite', 'OOP'],
+    github_url: 'https://github.com',
+    live_url: '#',
+    featured: false,
+  },
+];
+
+export const mockSkills = [
+  { id: '1', name: 'React.js', category: 'Frontend', level: 85 },
+  { id: '2', name: 'JavaScript', category: 'Frontend', level: 88 },
+  { id: '3', name: 'HTML & CSS', category: 'Frontend', level: 92 },
+  { id: '4', name: 'Tailwind CSS', category: 'Frontend', level: 80 },
+  { id: '5', name: 'Python', category: 'Backend', level: 75 },
+  { id: '6', name: 'C++', category: 'Programming', level: 82 },
+  { id: '7', name: 'Node.js', category: 'Backend', level: 70 },
+  { id: '8', name: 'Supabase', category: 'Database', level: 72 },
+  { id: '9', name: 'SQL / PostgreSQL', category: 'Database', level: 78 },
+];
+
+export const personalInfo = {
+  name: 'Areeba Sajjad',
+  title: 'Computer Science Student',
+  subtitle: '6th Semester | BSCS | Aspiring Full-Stack Developer',
+  email: 'areeba.sajjad@email.com',
+  phone: '+92 300 0000000',
+  location: 'Pakistan',
+  github: 'https://github.com/areeba-sajjad',
+  linkedin: 'https://linkedin.com/in/areeba-sajjad',
+  about: `Hi! I'm Areeba Sajjad, a passionate Computer Science student in my 6th semester with a deep love for web development and problem solving. I enjoy building clean, user-friendly applications and am always eager to learn new technologies. Currently exploring the MERN stack and modern frameworks like React and Next.js. I believe in writing clean code and creating meaningful digital experiences.`,
+  education: [
+    {
+      degree: 'Bachelor of Science in Computer Science',
+      institute: 'Comsats University Islamabad , vehari campus',
+      year: '2026 – Present',
+      semester: '6th Semester',
+      gpa: '3.8 / 4.0',
+    },
+    {
+      degree: 'FSc Pre-Engineering',
+      institute: 'Punjab College',
+      year: '2021 – 2023',
+      grade: 'A Grade',
+    },
+  ],
+};
