@@ -23,7 +23,7 @@ export function About() {
               </div>
               <div className="stat-divider" />
               <div className="stat-item">
-                <h3>3.5</h3>
+                <h3>3.75</h3>
                 <p>GPA</p>
               </div>
               <div className="stat-divider" />
@@ -45,9 +45,9 @@ export function About() {
                 <li><span>Name</span><strong>Areeba Sajjad</strong></li>
                 <li><span>Degree</span><strong>BSCS</strong></li>
                 <li><span>Semester</span><strong>6th</strong></li>
-                <li><span>GPA</span><strong>3.5 / 4.0</strong></li>
+                <li><span>GPA</span><strong>3.75 / 4.0</strong></li>
                 <li><span>Location</span><strong>Pakistan</strong></li>
-                <li><span>Email</span><strong>areeba@email.com</strong></li>
+                <li><span>Email</span><strong>areebasajjad.cs@email.com</strong></li>
               </ul>
             </div>
             <div className="glass detail-card animate-fade-up" style={{ animationDelay: '0.2s' }}>
