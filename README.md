@@ -1,10 +1,10 @@
 # 🌟 Areeba Sajjad — Portfolio Website
 
 ![Projects Section](https://github.com/AreebaSajjad/FA23-BCS-033/blob/main/CV-portfolio/Screenshot%202026-03-11%20135303.png?raw=true)
+
+[Live CV portfolio link](https://areebasajjad.vercel.app) 
 Live CV portfolio link
-
-![Live CV portfolio link](https://areebasajjad.vercel.app) 
-
+https://areebasajjad.vercel.app
 A modern, glassmorphism-themed React portfolio website with Supabase backend and Admin Panel.
 
 ## ✨ Features
